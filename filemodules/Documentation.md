@@ -20,7 +20,9 @@ local filemodules = require("filemodules <NAME OF FILE WHERE YOU SAVED THE SOURC
 ```
 
 - **Files**
+  
   - **Writing**
+    
     - ```lua
       local path = filemodules:writefile(path, content)
       ```
@@ -28,21 +30,27 @@ local filemodules = require("filemodules <NAME OF FILE WHERE YOU SAVED THE SOURC
       - Takes: path <string>, content <string>
       - Overwrites the given file
       - Soon to return file path
+        
   - **Appending**
+    
     - ```lua
       filemodules:appendfile(path, content)
       ```
       - Does not return file
       - Takes: path <string>, content <string>
       - Appends content to given file (if found in given directory)
+        
   - **Deleting**
+    
     - ```lua
       filemodules:delfile(path)
       ```
       - Does not return file
       - Takes: path <string>
       - Deletes given file (if found in given directory)
+        
   - **Reading**
+    
     - ```lua
       local read = filemodules(path <string>)
       ```
