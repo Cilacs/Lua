@@ -8,5 +8,5 @@
 
 **Metamethods (No Hooking)**
 
-![NOTE]
+[!NOTE]
 Test
