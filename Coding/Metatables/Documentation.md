@@ -8,5 +8,5 @@
 
 **Metamethods (No Hooking)**
 
-test [^1]
-[^1]: Hello
+test
+: hello
