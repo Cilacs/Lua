@@ -8,5 +8,5 @@
 
 **Metamethods (No Hooking)**
 
-test
-: hello
+	term
+: definition
